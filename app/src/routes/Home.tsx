@@ -8,7 +8,11 @@ export default function Home() {
           <Sparkles className="size-4" />
           Welcome
         </span>
-        <h1 className="font-heading text-5xl font-semibold tracking-tight text-foreground text-balance sm:text-6xl">
+        <h1
+          className="font-heading text-5xl font-semibold tracking-tight text-foreground text-balance sm:text-6xl"
+          style={{
+            color: "#2CF4B6"
+          }}>
           Hello, world
         </h1>
         <p className="max-w-md text-lg text-muted-foreground text-pretty">
@@ -16,5 +20,5 @@ export default function Home() {
         </p>
       </div>
     </main>
-  )
+  );
 }
