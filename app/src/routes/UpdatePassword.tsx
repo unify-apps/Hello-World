@@ -64,7 +64,7 @@ export default function UpdatePassword() {
   const validationError = !submitted
     ? undefined
     : unmetRules.length > 0
-      ? 'Your password does not meet the requirements below.'
+      ? 'Your password does not meet the requirements below - testing'
       : !passwordsMatch
         ? 'The two passwords do not match.'
         : undefined
